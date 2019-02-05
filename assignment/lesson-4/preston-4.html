@@ -7,6 +7,10 @@
     <meta name="Author" content="Okor Eric">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+    <link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+    <link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+    <link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
     <title>Weather site project</title>
     <link rel="stylesheet" href="css/small-4.css">
 
@@ -14,23 +18,27 @@
 
 <body>
     <header>
-        <img src="image/cloud.png" alt="image of a cloud">
-        <div class="name">
-            <h2>Ojuojo Weather Site</h2>
-            <q class="motto">Your sunshine matters.</q>
+        <div class="wrapper">
+
+            <div><img src="image/cloud.png" alt="image of a cloud"></div>
+
+            <div class="align">
+                <p>Ojuojo</p>
+                <q class="motto">Your sunshine matters.</q>
+            </div>
         </div>
-        
+
     </header>
     <nav class="nav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#home">Preston</a></li>
-                <li><a href="#home">Soda Springs</a></li>
-                <li><a href="#home">Fish Haven</a></li>
-                <li><a href="#home">Storm Haven</a></li>
-                <li><a href="#home">Gallery</a></li>
-            </ul>
-        </nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#home">Preston</a></li>
+            <li><a href="#home">Soda Springs</a></li>
+            <li><a href="#home">Fish Haven</a></li>
+            <li><a href="#home">Storm Haven</a></li>
+            <li><a href="#home">Gallery</a></li>
+        </ul>
+    </nav>
 
 
 </body>
