@@ -37,43 +37,44 @@ header{
         
     
     }
-    .nav
+   
+   .nav li a
     {
-        background-color:#B2EBF2;
-        margin-top:-16px;
-
+        display: block;
+   padding: 8px 16px;
+  text-decoration: none;
+  text-align:center;
     }
 
-    .nav li a
+    ul 
     {
-        text-decoration:none;
-    }
-
-    ul li
-    {
-        list-style-type:none;
-        text-align:center;
+         list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #00ffff45;;
     }
     
 /* unvisited link */
 a:link {
-    color: green;
+    color: #10100f;
   }
   
   /* visited link */
   a:visited {
-    color: #00838F;
+    color: #161717;
   }
   
   /* mouse over link */
   a:hover {
     background-color: rgb(14, 9, 22);
+    color:white;
+    
     
   }
  
   /* selected link */
   a:active {
-    color: brown;
+    color: red;
   }
 
 
