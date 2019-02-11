@@ -6,26 +6,32 @@
     <meta name="Description" content="Weather site page">
     <meta name="Author" content="Okor Eric">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Weather site project</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small-5.css">
     <link rel="stylesheet" href="css/large-5.css">
 
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Description" content="Weather site page">
+        <meta name="Author" content="Okor Eric">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather site project</title>
+    </head>
 
 <body>
-    <header>
-        <div class="wrapper">
+    <div class="header">
+        <div class="inner_header">
+            <img src="image/cloud.png" alt="image of a cloud">
 
-            <div><img src="image/cloud.png" alt="image of a cloud"></div>
-
-            <div class="align">
-                <p>Ojuojo</p>
-                <q class="motto">Your sunshine matters.</q>
+            <div class="logo_container">
+                <h1>Ojuojo</h1>
+                <p class="motto">Your sunshine matters.</p>
             </div>
         </div>
-    </header>
+    </div>
     <nav class="nav">
         <ul>
             <li><a href="#home">Home</a></li>
@@ -36,7 +42,95 @@
             <li><a href="#home">Gallery</a></li>
         </ul>
     </nav>
-    <h1 class="h1">Preston Idaho</h1>
+
+
+    <main>
+        <h2 class="name">Preston Idaho</h2>
+        <div class="wrap"><img src="image/img.jpg" alt="Preston city">
+            <section class="summary">
+
+                <h3>Weather summary</h3>
+                <hr>
+
+                <p>Currently: <span class="p1">Sunny</span></p>
+                <p>High: <span class="p2">76&#8457;</span></p>
+                <p>Wind Chil: <span class="p3">78&#8457;</span></p>
+                <p>Humidity: <span class="p4">69%</span></p>
+                <p>Wind Speed: <span class="p5">5 mph</span></p>
+
+            </section>
+        </div>
+
+        <article>
+            <div class="olojo"><img src="image/olojo.jpg"></div>
+            <div class="olojo_wrap">
+                <h4 class="title">Ooni of Ife begins Olojo festival with 7 day seclusion</h4>
+                <p class="author">by Gbenga Olarinoye</p>
+                <p class="body">Ooni of Ife begins Olojo festival with 7 day seclusion ON SEPTEMBER 27, 2018 8:39PM.
+                    The Ooni of Ife, Oba Adeyeye Enitan Ogunwusi, Ojaja II last Sunday moved
+                    into
+                    Iledi house at Iremo quaters in Ile-Ife where he remains incommunicado in an annual 7-day seclusion
+                    kick-starting the 2018 Olojo Festival. Ooni of Ife, Oba Adeyeye Enitan Ogunwusi sits for his
+                    coronation
+                    at Ile-Ife in southwest Nigeria, on December 7, 2015. 41-year-old multi-millionaire Adeyeye Enitan
+                    Ogunwusi, has been officially installed as the new Ooni of Ife.<a
+                        href="https://www.vanguardngr.com/2018/09/ooni-of-ife-begins-olojo-festival-with-7-day-seclusion/">...continue
+                        to full article</a>
+
+            </div>
+        </article>
+        <section class="last">
+            
+            <div class="contact">
+                    <h5>OJUOJO</h5>
+                <p> &#xf041; &#x2116; 30 1st E <br>
+                    Preston, ID 83263 <br>
+                    &#x260f; 999.999.9999 <br>
+                    &#x2709; ojuojo@info.com<br><br><br><br><br>
+                </p>
+                <div class="google"><img src="image/Googlemap.jpg">
+            </div>
+
+            <div class="socialMedia">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-whatsapp"></a>
+            </div><br><br>
+            
+        </section>
+    </main>
+        <footer><p></p>&copy; OJUOJO | attribution |Okoro Eric |Oluwaseyi</p><br>
+            <script src="scripts/currentdate.js" type="text/javascript"></script>
+
+        </footer>
+    
+    <!--
+        <p>5 Day Forcast</p>
+        <div class="wraptable">
+            <table class="weather_data">
+                <tr>
+                    <th>wed</th>
+                    <th>thur</th>
+                    <th>fri</th>
+                    <th>sat</th>
+                    <th>sun</th>
+                </tr>
+
+                <tr>
+                    <td>89&#8457;</td>
+                    <td>87&#8457;</td>
+                    <td>78&#8457;</td>
+                    <td>75&#8457;</td>
+                    <td>72&#8457;</td>
+
+                </tr>
+            </table>
+        </div>
+    -->
+    
+
+    
 
 
 </body>

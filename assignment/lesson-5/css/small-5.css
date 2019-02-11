@@ -1,0 +1,203 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+}
+
+.inner_header {
+    text-align: center;
+    /*margin: 0 auto;*/
+}
+
+.logo_container {
+    display: inline-block;
+    line-height: 5px;
+    color: rgb(183, 199, 243);
+}
+
+.nav {
+    text-align: center;
+    background-color: grey;
+    color: rgb(255, 215, 215);
+    padding: 10px;
+    
+}
+
+.nav li a {
+   /* text-decoration: none;
+    /*margin: 10px*/ 
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center; 
+}
+
+.nav ul,
+li {
+    list-style-type: none;
+    /*display: inline;*/
+    margin: 0;
+    padding: 0
+}
+
+main {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.name {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    /*font-weight: bold;*/
+}
+
+.wrap {
+    margin: 10px auto;
+    position: relative;
+}
+
+.wrap h3 {
+    color: black;
+}
+
+.summary {
+    position: absolute;
+    top: 25px;
+    background: radial-gradient(#eee, #4567aa);
+    width: 25%;
+}
+
+article {
+    width: 85%;
+    background-color: #b2b2b2;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .8rem;
+    color: black;
+    position: relative;
+}
+
+.olojo_wrap {
+    position: relative;
+    width: 50%;
+}
+
+.olojo img {
+    position: absolute;
+    width:50%;
+    left:50%;
+    top: 5%;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: -10px;
+}
+
+.body {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.author {
+    text-align: center;
+}
+
+
+.last{
+       
+    width: 85%;
+        background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .8rem;
+    position: relative;
+    
+      
+}
+.contact h5{
+    margin-top: 10px;
+    position: relative;
+    padding-top: 5%;
+    
+    
+}
+.contact{
+    margin-left: 30px;
+     
+  }
+
+  .google img{
+   width: 30%;
+   position: absolute;
+   top: 8%;
+   left: 44%;
+  }
+
+  .socialMedia a {
+    text-decoration: none;
+    
+}
+.socialMedia a:hover {
+    color: white;
+}
+.google{
+    left: 20%;
+    
+  
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.weather_data th,
+td {
+    border: 1px solid;
+}
+
+.wraptable {
+    margin: 0 auto;
+    width: 25vw;
+}
+
+.weather_data {
+    border-collapse: collapse;
+    width: 15vw;
+    text-align: center;
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+
+a:visited {
+    color: rgb(35, 41, 119);
+}
+
+/* Focused link*/
+
+a:focus {
+    color: blue;
+}
+
+/* mouse over link */
+
+a:hover {
+    background-color: black;
+    color:white;
+}
+
+/* selected link */
+
+a:active {
+    color: lime;
+}
