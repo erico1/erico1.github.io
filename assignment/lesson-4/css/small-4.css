@@ -12,13 +12,14 @@ body {
 .inner_header {
     text-align: center;
     /*margin: 0 auto;*/
+    
 }
 
 .logo_container {
     display: inline-block;
     line-height: 5px;
     color: rgb(183, 199, 243);
-    
+
 }
 
 .nav {
