@@ -1,45 +1,48 @@
-
-body{
+body {
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
-.header{
+.header {
     width: 100%;
-    background-color: red;
+    background-color: black;
 }
 
-.inner_header{
+.inner_header {
     text-align: center;
-    margin-left: -11%;
+    /*margin: 0 auto;*/
 }
 
-.inner_header img{
-width: 10%;
-}
-
-.logo_container{
+.logo_container {
     display: inline-block;
-    color: white;
+    line-height: 5px;
+    color: rgb(183, 199, 243);
 }
-.logo_container h1{
-font-size: 5vw;
+
+.nav {
+    text-align: center;
+    background-color: grey;
+    color: rgb(255, 215, 215);
+    padding: 10px;
+    
 }
-.nav li a 
-{
+
+.nav li a {
+   /* text-decoration: none;
+    /*margin: 10px*/ 
     display: block;
     padding: 8px 16px;
     text-decoration: none;
-    text-align: center;
+    text-align: center; 
 }
 
-ul {
+.nav ul,
+li {
     list-style-type: none;
+    /*display: inline;*/
     margin: 0;
-    padding: 0;
-    background-color: #00ffff45;
-    
+    padding: 0
 }
 
 /* unvisited link */
