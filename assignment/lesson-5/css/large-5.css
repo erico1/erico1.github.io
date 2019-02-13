@@ -1,0 +1,64 @@
+@media screen and (max-width:700px) {
+    .nav {
+        text-align: center;
+        background-color: grey;
+        color: rgb(255, 215, 215);
+        
+        
+    }
+    
+    .nav li a {
+       
+         
+        display: block;
+        padding: 8px 16px;
+        text-decoration: none;
+        text-align: center; 
+        color: white;
+        padding: 5px;
+    }
+    
+    .nav ul,
+    li {
+        list-style-type: none;
+        
+    }
+
+    
+header {
+    background-color: #333333;
+    min-height: 70%;
+    color: white;
+}
+.container h2{
+    font-size: 16px;
+    color: blue;
+}
+
+.summary{
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+    width: 40%;
+    text-align: center;
+    top: 4px;
+    left:15px;
+    color: white;
+    
+}
+
+.olojo img{
+
+    width:100%;
+    margin-top: 20px;
+ }
+
+ .contact img{
+    width: 100%;
+  float: right;
+  margin-top:-20px;
+   }
+
+
+
+ }
