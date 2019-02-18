@@ -95,7 +95,7 @@ nav {
 
 .olojo_wrap {
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px; 
 }
 
 article {
@@ -106,6 +106,7 @@ article {
 .article1 {
     margin: auto;
     background-color: lightgray;
+    width: 100%;
 }
 
 figure img {
@@ -145,6 +146,9 @@ figcaption{
   margin: auto;
   text-align: center;
 
+}
+.contact img{
+    width: 120%;
 }
 
 figure {
@@ -209,4 +213,10 @@ a:hover {
 
 a:active {
     color: lime;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
