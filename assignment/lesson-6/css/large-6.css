@@ -1,62 +1,54 @@
-@media screen and (min-width:575px){
-   
-        .nav {
-            text-align: center;
-            background-color: grey;
-            color: rgb(255, 215, 215);           
-            
-        }
+@media screen and (min-width:575px) {
+    /**********styles the nav*******************/
+    nav button {
+        display: none;
+    }
+  
+    nav ul li {
+        list-style-type: none;
+        float: left;
         
+    }
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 4rem;
         
-        
-        .nav ul,li {
-            list-style-type: none;
-             
-            display: inline-block; 
-        }
+    }
+    nav ul.hide{display: block;}
     
-        
+    /*****************nav styles ends***********/
     header {
         background-color: #333333;
-       
     }
-    .container h2{
+    .container h2 {
         font-size: 2rem;
-      
     }
-    
-    .summary{
-    width: 40%;
-     font-size: 1rem;
-        
-
-        
+    .summary {
+        width: 40%;
+        font-size: 1rem;
     }
-    .olojo_wrap{
+    .olojo_wrap {
         width: 80%;
         margin: 0 auto;
     }
-    .article1{
+    .article1 {
         width: 80%;
     }
-    
     figure {
-    
-        width:40%;
+        width: 40%;
         float: right;
-     }
-     
-    .site_info{
-        width: 80%;
-   }
-      
-    .contact {
-    margin: 0;
-    padding-bottom: 5px;
     }
-    .contact img{
-    margin-left: 100%;
-    margin-top: -30%;
-    width: 90%;
+    .site_info {
+        width: 80%;
+    }
+    .contact {
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    .contact img {
+        margin-left: 100%;
+        margin-top: -30%;
+        width: 90%;
     }
 }

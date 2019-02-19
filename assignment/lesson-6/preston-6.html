@@ -34,18 +34,18 @@
             </div>
         </div>
     </header>
-    <div class="clearfix">
-        <nav class="nav">
-            <ul>
+    
+        <nav class="clearfix"><button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#home">Preston</a></li>
+                <li class="active"><a href="#home">Preston</a></li>
                 <li><a href="#home">Soda Springs</a></li>
                 <li><a href="#home">Fish Haven</a></li>
                 <li><a href="#home">Storm Haven</a></li>
                 <li><a href="#home">Gallery</a></li>
             </ul>
         </nav>
-    </div>
+    
 
     <section class="status">
         <div class="container">
@@ -116,12 +116,14 @@
     </section>
 
     <footer>
-        <p>&copy; OJUOJO | Attribution |Okoro Eric |Oluwaseyi</p><br>
-        <script src="scripts/currentdate.js" type="text/javascript"></script>
+        <p>&copy; OJUOJO | Attribution |Okoro Eric Oluwaseyi | <span class="currentdate"></span></p><br>
+        
 
 
     </footer>
-
+    <script src="script/hamburger.js"></script>
+    <script src="script/currentdate.js"></script>
+  
     <!--
         <p>5 Day Forcast</p>
         <div class="wraptable">

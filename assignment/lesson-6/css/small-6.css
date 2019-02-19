@@ -37,29 +37,51 @@ header {
 }
 
 /*********************************** This will style the nav *********************/
+nav button{
+    background-color: transparent;
+    margin: .2rem 2%;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
 
 nav {
     background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav ul {
+
+nav ul {
     padding: 0;
     margin: 0;
 }
 
-.nav li {
+nav li {
     list-style-type: none;
 }
 
-.nav a {
+nav a {
     display: block;
-    padding: .8rem;
+     padding: .8rem 2%; 
     color: #eee;
     text-decoration: none;
-    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.3);
+  /*   text-align: center; */
+}
+nav ul.hide{display: none;
 }
 
-/************************************ This will style the page content************/
+nav ul li.active a{background-color: rgba(0, 0, 0, .2);color: black;}
+
+a:link { color: black;}
+
+a:visited {color: rgb(35, 41, 119);}
+
+a:focus {color: blue;}
+
+a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
+
+
 
 /*
 ******************************** This will style the image and weather summary*/
@@ -177,6 +199,9 @@ footer {
     width: 100%;
     margin: 0 auto;
 }
+.currentdate{
+    color: white;
+}
 
 .weather_data th,
 td {
@@ -194,26 +219,6 @@ td {
     text-align: center;
 }
 
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: rgb(35, 41, 119);
-}
-
-a:focus {
-    color: blue;
-}
-
-a:hover {
-    background-color: black;
-    color: white;
-}
-
-a:active {
-    color: lime;
-}
 
 .clearfix:after {
     content: "";
