@@ -3,17 +3,20 @@
     nav button {
         display: none;
     }
-  
+  nav ul{
+      display: block;
+      margin: 0 auto;
+      width: fit-content;
+  }
     nav ul li {
         list-style-type: none;
-        float: left;
-        
+         float: left; 
+
     }
     nav ul li a{
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
-        padding: .6rem 3rem;
-     
+        padding: .6rem 3rem;  
         
     }
     nav ul.hide{display: block;}
