@@ -15,8 +15,8 @@
     }
     nav ul li a{
         border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-        padding: .6rem 1rem;  
+        border-right: 1px solid grey;
+        padding: 9.6px 16px;  
         
     }
     nav ul.hide{display: block;}
@@ -26,10 +26,10 @@
         background-color: #333333;
     }
     .container h2 {
-        font-size: 2rem;
+        font-size: 32px;
     }
     .forecastTitle {
-        background-color: lightslategrey;
+        background-color:#D3D3D3;
         margin-left: 40px;
         padding: 2px;
         width: 40%;
@@ -39,7 +39,7 @@
     .forecastTitle>h2 {
         position: relative;
         text-align: center;
-        color: whitesmoke;
+        color: white;
     }
     table {
         position: relative;
@@ -53,7 +53,7 @@
     }
     .summary {
         width: 40%;
-        font-size: 1rem;
+        font-size: 16px;
     }
     .olojo_wrap {
         width: 80%;
