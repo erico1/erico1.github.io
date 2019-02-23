@@ -1,0 +1,228 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/***************************************body**************************************/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/********************************************** header ***************************************/
+
+header {
+    background-color: #333333;
+    color: #0000ff;
+}
+@media screen and (max-width:600px){
+    .forecastTitle{
+display: none;
+    }
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.wrapnav {
+    text-align: center;
+}
+
+.name_motto {
+    display: inline-block;
+}
+
+/*********************************** This will style the nav *********************/
+nav {
+
+	margin: auto;
+	background-color: grey;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation li { display: none; }
+.navigation li:first-child { display: block; }
+.navigation li a { display: block;
+	color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.25rem;
+}
+.responsive li { display: block; }
+.navigation li a:hover {
+	background-color: rgba(200, 200, 200, 1);
+	color: rgba(0, 0, 0, 1);
+}
+
+
+
+nav ul li.active a{background-color: rgba(0, 0, 0, .2);color: black;}
+
+a:link { color: black;}
+
+a:visited {color: rgb(35, 41, 119);}
+
+a:focus {color: blue;}
+
+a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
+
+
+
+/*
+******************************** This will style the image and weather summary*/
+
+.wrap2 {
+    position: relative;
+    margin: 10px auto;
+}
+
+.wrap2 img {
+    width: 100%;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.summary {
+    position: absolute;
+    background-color: blueviolet;
+    opacity: .7;
+    width: 35%;
+    text-align: center;
+    top: 3px;
+    left: 15px;
+    color: white;
+    font-size:.6rem;
+    line-height: .5rem;
+}
+
+/****************This will style the first article********************************/
+
+.olojo_wrap {
+    text-align: center;
+    padding: 20px 20px 20px 20px; 
+}
+
+article {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.article1 {
+    margin: auto;
+    background-color: lightgray;
+    width: 100%;
+}
+
+figure img {
+    
+    width: 100%;
+    margin-top: 20px;
+}
+figcaption{
+    text-align: center;
+    font-size: .8rem;
+}
+.title{
+    font-size: 1rem;
+}
+.author_name{
+    font-size:.8rem;
+}
+
+.body {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.site_info {
+    width: 100%;
+    background-color: grey;
+    font-size: .8rem;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+
+.contact {
+    width: 50%;
+  margin: auto;
+  text-align: center;
+
+}
+.contact img{
+    width: 120%;
+}
+
+figure {
+    width: 100%;
+    margin: auto;
+}
+
+
+.socialMedia a {
+    text-decoration: none;
+}
+
+.socialMedia a:hover {
+    color: white;
+}
+
+.google {
+    left: 20%;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+.currentdate{
+    color: white;
+}
+
+.weather_data th,
+td {
+    border: 1px solid;
+}
+
+.wraptable {
+    margin: 0 auto;
+    width: 25vw;
+}
+
+.weather_data {
+    border-collapse: collapse;
+    width: 15vw;
+    text-align: center;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
