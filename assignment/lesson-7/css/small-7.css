@@ -84,6 +84,14 @@ a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
 
 
 
+/***********************This will style the gallery content***********************/
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+
 /*
 ******************************** This will style the image and weather summary*/
 
