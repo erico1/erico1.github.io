@@ -5,6 +5,18 @@
 	.navigation, .container { flex-direction: row; }
 }
     /*****************nav styles ends***********/
+     @media screen and (min-width:1000px){.wrapper{
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;   
+        grid-auto-flow:  dense;
+        
+        width: 100%;
+    }
+   
+    } 
+
     header {
         background-color: #333333;
     }

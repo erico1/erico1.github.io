@@ -85,10 +85,20 @@ a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
 
 
 /***********************This will style the gallery content***********************/
-.wrapper{
+
+/****************This will style the image content for large view******/
+@media screen and (width:320px){.wrapper{
     display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-rows: repeat(2,200px);    
+  
+    
+}
+.box img{
+    width:100%;
+    
+}
 }
 
 
@@ -228,6 +238,23 @@ td {
     text-align: center;
 }
 
+
+
+/* windchill */
+
+table {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+input {
+   width: 120px;
+}
+
+#button {
+    margin-right: 26px;
+    
+}
 
 .clearfix:after {
     content: "";
