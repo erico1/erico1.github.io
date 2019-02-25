@@ -139,13 +139,20 @@ a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
     background-color: blueviolet;
     opacity: .7;
     width: 35%;
-    text-align: center;
+    text-align: left;;
     top: 3px;
     left: 15px;
     color: white;
     font-size:.6rem;
-    line-height: .5rem;
+    line-height: 5px;
 }
+.summary, .tch{
+    font-size: 12px;
+    line-height: 5px;   
+}
+.summary #output{
+    
+background-color: white;}
 
 /****************This will style the first article********************************/
 
