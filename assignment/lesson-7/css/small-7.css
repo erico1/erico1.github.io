@@ -240,22 +240,29 @@ td {
 
 
 
-/* windchill */
-
-table {
-    border: 1px solid gray;
-    padding: 5px;
+.java{
+    margin-left: 25rem;
+ max-width: 500px;
+ background-color: lightblue;
+ padding: 1rem;
+ border: 1px solid #444;
+ text-align: center;
 }
 
-input {
-   width: 120px;
-}
-
-#button {
-    margin-right: 26px;
-    
-}
-
+.java div {
+    margin: 1rem;
+    background-color: #eee;
+    padding: 1rem;
+   }
+   
+   hr {
+    border: 0.5px solid #444;
+   }
+   
+   strong {
+    color: green;
+   }
+   
 .clearfix:after {
     content: "";
     display: table;
