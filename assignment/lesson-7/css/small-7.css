@@ -105,6 +105,7 @@ a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit,1fr);
     grid-template-rows: repeat(2,200px);  
+    grid-auto-flow: dense;
     
   
     
