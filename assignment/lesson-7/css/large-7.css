@@ -1,22 +1,31 @@
 /* medium and up views */
-@media (min-width: 45em) {
-	.navigation li:first-child { display: none;	}
-	.navigation li { display: block; flex: 1 1 auto; }
-	.navigation, .container { flex-direction: row; }
-}
-    /*****************nav styles ends***********/
-     @media screen and (min-width:1000px){.wrapper{
-        display: grid;
-        
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;   
-        grid-auto-flow:  dense;
-        
-        width: 100%;
-    }
-   
-    } 
 
+@media (min-width: 45em) {
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation,
+    .container {
+        flex-direction: row;
+    }
+    /*****************nav styles ends***********/
+    @media screen and (min-width:1000px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            grid-auto-flow: dense;
+            width: 100%;
+        }
+        /* hover effect */
+        .norm:hover {
+            box-shadow: 0 0 80px rgb(209, 84, 84);
+        }
+    }
     header {
         background-color: #333333;
     }
@@ -24,7 +33,7 @@
         font-size: 32px;
     }
     .forecastTitle {
-        background-color:#D3D3D3;
+        background-color: #D3D3D3;
         margin-left: 40px;
         padding: 2px;
         width: 40%;
@@ -42,7 +51,8 @@
         border-collapse: collapse;
         width: 100%
     }
-    th, td {
+    th,
+    td {
         text-align: center;
         height: 20px;
     }
@@ -73,3 +83,4 @@
         margin-top: -30%;
         width: 90%;
     }
+}
