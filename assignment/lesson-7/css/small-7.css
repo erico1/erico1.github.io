@@ -100,7 +100,7 @@ a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
     
 }
 /****************This will style the image content for large view******/
-@media screen and (width:320px){.wrapper{
+@media screen and (max-width:320px){.wrapper{
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit,1fr);
