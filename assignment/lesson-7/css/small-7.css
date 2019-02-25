@@ -21,11 +21,14 @@ header {
     background-color: #333333;
     color: #0000ff;
 }
-@media screen and (max-width:600px){
-    .forecastTitle{
-display: none;
+
+.wrapnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     }
-}
+
+/* 
 .container {
     width: 80%;
     margin: auto;
@@ -38,82 +41,97 @@ display: none;
 
 .name_motto {
     display: inline-block;
-}
+} */
 
 /*********************************** This will style the nav *********************/
-nav {
 
-	margin: auto;
-	background-color: grey;
+nav {
+    margin: auto;
+    background-color: grey;
 }
 
 .navigation {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.navigation li { display: none; }
-.navigation li:first-child { display: block; }
-.navigation li a { display: block;
-	color: rgba(255, 255, 255, 0.8);
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
-	font-size: 1.25rem;
+.navigation li {
+    display: none;
 }
-.responsive li { display: block; }
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.responsive li {
+    display: block;
+}
+
 .navigation li a:hover {
-	background-color: rgba(200, 200, 200, 1);
-	color: rgba(0, 0, 0, 1);
+    background-color: rgba(200, 200, 200, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, .2);
+    color: black;
+}
 
+a:link {
+    color: black;
+}
 
-nav ul li.active a{background-color: rgba(0, 0, 0, .2);color: black;}
+a:visited {
+    color: rgb(35, 41, 119);
+}
 
-a:link { color: black;}
+a:focus {
+    color: blue;
+}
 
-a:visited {color: rgb(35, 41, 119);}
-
-a:focus {color: blue;}
-
-a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
-
-
+a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
 
 /***********************This will style the gallery content***********************/
 
-
 .return {
-   
-   margin-left: 70%;
-   padding: 20px;
+    margin-left: 70%;
+    padding: 20px;
 }
 
-.return a{
+.return a {
     text-decoration: none;
-    
-}
-/****************This will style the image content for large view******/
-@media screen and (max-width:430px){.wrapper{
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit,1fr);
-    grid-template-rows: repeat(2,200px);  
-    grid-auto-flow: dense;
-    
-  
-    
-}
-.box img{
-    width:100%;
-    box-shadow: 20px 20px 690px;
-}
 }
 
+/****************This will style the image content for large view******/
+
+@media screen and (max-width:430px) {
+    .wrapper {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fit, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        grid-auto-flow: dense;
+    }
+    .box img {
+        width: 100%;
+        box-shadow: 20px 20px 690px;
+    }
+}
 
 /*
 ******************************** This will style the image and weather summary*/
@@ -137,26 +155,30 @@ a:hover {background-color: rgba(0,0,0,0.4);    color: white;}
     background-color: blueviolet;
     opacity: .7;
     width: 35%;
-    text-align: left;;
+    text-align: left;
+    ;
     top: 3px;
     left: 15px;
     color: white;
-    font-size:.6rem;
+    font-size: .6rem;
     line-height: 5px;
 }
-.summary, .tch{
+
+.summary,
+.tch {
     font-size: 12px;
-    line-height: 5px;   
+    line-height: 5px;
 }
-.summary #output{
-    
-background-color: white;}
+
+.summary #output {
+    background-color: white;
+}
 
 /****************This will style the first article********************************/
 
 .olojo_wrap {
     text-align: center;
-    padding: 20px 20px 20px 20px; 
+    padding: 20px 20px 20px 20px;
 }
 
 article {
@@ -171,19 +193,21 @@ article {
 }
 
 figure img {
-    
     width: 100%;
     margin-top: 20px;
 }
-figcaption{
+
+figcaption {
     text-align: center;
     font-size: .8rem;
 }
-.title{
+
+.title {
     font-size: 1rem;
 }
-.author_name{
-    font-size:.8rem;
+
+.author_name {
+    font-size: .8rem;
 }
 
 .body {
@@ -197,18 +221,19 @@ figcaption{
     font-size: .8rem;
     margin: 0 auto;
     padding: 0;
-
 }
 
-
+.forecastTitle {
+    display: none;
+}
 
 .contact {
     width: 50%;
-  margin: auto;
-  text-align: center;
-
+    margin: auto;
+    text-align: center;
 }
-.contact img{
+
+.contact img {
     width: 120%;
 }
 
@@ -216,7 +241,6 @@ figure {
     width: 100%;
     margin: auto;
 }
-
 
 .socialMedia a {
     text-decoration: none;
@@ -238,7 +262,8 @@ footer {
     width: 100%;
     margin: 0 auto;
 }
-.currentdate{
+
+.currentdate {
     color: white;
 }
 
@@ -258,32 +283,29 @@ td {
     text-align: center;
 }
 
-
-
-.java{
- 
- width: 80%;
- margin: auto;
- background-color: lightblue;
- padding: 1rem;
- border: 1px solid #444;
- text-align: center;
+.java {
+    width: 80%;
+    margin: auto;
+    background-color: lightblue;
+    padding: 1rem;
+    border: 1px solid #444;
+    text-align: center;
 }
 
 .java div {
     margin: 1rem;
     background-color: #eee;
     padding: 1rem;
-   }
-   
-   hr {
+}
+
+hr {
     border: 0.5px solid #444;
-   }
-   
-   strong {
+}
+
+strong {
     color: green;
-   }
-   
+}
+
 .clearfix:after {
     content: "";
     display: table;
