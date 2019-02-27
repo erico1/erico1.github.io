@@ -1,0 +1,34 @@
+table {
+    font-family: 'ubuntu', sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    margin: auto;
+  }
+  
+   td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+   .only{
+    background-color: #7fb9c2;
+   color: #e7f0ed 
+  }
+
+  tfoot{
+    background-color:#7fb9c2;
+     
+  }
+  #title{
+      text-align: center;
+      color: #000;
+      font-weight: bold;
+        font-size: 30px;
+        background-color:#7fb9c2;
+  }
+  thead > tr:nth-child(2){
+color:white;
+background-color: #628ca6;
+  } 
