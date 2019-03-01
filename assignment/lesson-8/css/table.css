@@ -1,7 +1,7 @@
 table {
     font-family: 'ubuntu', sans-serif;
     border-collapse: collapse;
-    width: 50%;
+    width: 25%;
     margin: auto;
     box-shadow: 5px 5px 20px#5ca4ad;
 }
@@ -19,7 +19,7 @@ th {
     font-style: italic;
 }
 
-caption {
+thead>tr:nth-child(1) {
     background-color: #7fb9c2;
     color: black;
     text-align: center;
@@ -30,7 +30,7 @@ caption {
 }
 
 
-thead>tr:nth-child(1) {
+thead>tr:nth-child(2) {
     color: white;
     background-color: #628ca6;
 }
