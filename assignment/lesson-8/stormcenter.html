@@ -49,40 +49,40 @@
 
             <legend>Contact Information</legend>
 
-            <div><label for="name">First Name *</label>
-                <input type="text" id="name" name="full name" pattern="[A-Za-z][min-length 5]" required></div>
+            <div><label>First Name *</label>
+                <input type="text" name="full name" pattern="[A-Za-z][min-length 5]" required></div>
             <div>
                 <label for="name">Last Name *</label>
                 <input type="text" id="name" name="last name" pattern="[A-Za-z][min-length 5]" required>
             </div>
 
 
-            <div> <label for="mail">Email *</label>
-                <input type="email" id="mail" name="Email" placeholder="someone@bedof.com">
+            <div> <label>Email *</label>
+                <input type="email" name="Email" placeholder="someone@bedof.com">
             </div>
 
             <div>
 
-                <label for="tel">Phone Number *</label>
-                <input type="tel" id="tel" name="Tel" required>
+                <label>Phone Number *</label>
+                <input type="tel" name="Tel" required>
 
             </div>
 
             <div>
-                <label for="Zip">Zip Code *</label>
-                <input type="number" id="zip code" name="zp" required>
+                <label>Zip Code *</label>
+                <input type="number"  name="zp" required>
             </div>
         </fieldset>
         <fieldset>
             <legend>Weather Condition</legend>
             <div>
-                <label for="date">Storm Date</label>
-                <input type="date" id="date" name="date">
+                <label>Storm Date</label>
+                <input type="date"  name="date">
             </div>
 
 
 
-            <div><label for="disaster">Storm Stype</label>
+            <div><label>Storm Stype</label>
                 <input list="disaster" name="disaster">
                 <datalist id="disaster">
                     <option value="Flash-Flood">
@@ -93,8 +93,8 @@
                 </datalist></div>
 
             <div>
-                <label for="range">Storm Severity (1 to 10)</label>
-                <input type="range" name="points" id="range" value="1" min="1" max="10" step="1"
+                <label>Storm Severity (1 to 10)</label>
+                <input type="range" name="points" value="1" min="1" max="10" step="1"
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue">1</span>
             </div>
@@ -104,8 +104,8 @@
             <legend>Location</legend>
 
 
-            <div><label for="region">Storm Region</label>
-                <select id="region" name="region">
+            <div><label>Storm Region</label>
+                <select name="region">
                     <option value="Select Region"> Select Region</option>
                     <option value="Preston">Preston</option>
                     <option value="soda">Soda</option>
