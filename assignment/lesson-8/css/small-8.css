@@ -22,11 +22,11 @@ header {
     color: #0000ff;
 }
 
-.wrapnav{
+.wrapnav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    }
+}
 
 /* 
 .container {
@@ -302,10 +302,44 @@ hr {
     border: 0.5px solid #444;
 }
 
-strong {
-    color: green;
+form {
+    width: 70%;
+    margin: auto;
 }
 
+legend {
+    text-align: center;
+    font-style: bold;
+    font-size: 150%;
+}
+
+fieldset div {
+    display: flex;
+    flex-flow: column;
+}
+
+ input {
+    background-color: rgb(243, 243, 229);
+   
+}  
+
+label {
+color: blue;
+} 
+
+#ratingvalue {
+    margin-left: 50%;
+}
+button{
+    float: right;
+    background-color: blue;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
 .clearfix:after {
     content: "";
     display: table;
