@@ -21,27 +21,29 @@ function showtownsInfo(jsonObj) {
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
             var myPara4 = document.createElement('p');
-            var myImages = document.createElement("img");
+            var myImages = document.createElement('img');
 
             myH2.textContent = towns[i].name;
             myPara1.textContent = towns[i].motto;
             myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
             myPara3.textContent = 'Population: ' + towns[i].currentPopulation;
-            myPara4.textContent = 'Annual Rainfall:' + towns[i].averageRainfall; 
+            myPara4.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + '"'; 
 
             if (towns[i].name == 'Franklin') {
                 myImages.setAttribute('src', 'erico1.github.io/assignment/lesson-9/image/town1.jpg');
                 myImages.setAttribute('alt', 'An image of a beatiful city');
             }
             else if (towns[i].name == 'Greenville') {
-                myImages.setAttribute('src', 'erico1.github.io/assignment/lesson-9/image/town2.jpeg');
+                myImages.setAttribute('src', 'erico1.github.io/assignment/lesson-9/image/town2.jpg');
                 myImages.setAttribute('alt', 'An image of a beatiful city');
             }
             else if (towns[i].name == 'Springfield') {
-                myImages.setAttribute('src', 'erico1.github.io/assignment/lesson-9/image/town3.jpeg');
+                myImages.setAttribute('src', 'erico1.github.io/assignment/lesson-9/image/town3.jpg');
                 myImages.setAttribute('alt', 'Beautiful city');
             }
 
+         
+      
             myArticle.appendChild(myH2);
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
