@@ -51,7 +51,7 @@ function showtownsInfo(jsonObj) {
             myArticle.appendChild(myPara4);
 
             section.appendChild(myArticle);
-            section.appendChild(myImages);
+            myArticle.appendChild(myImages);
 
 
          } 
