@@ -30,15 +30,15 @@ function showtownsInfo(jsonObj) {
             myPara4.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + '"'; 
 
             if (towns[i].name == 'Franklin') {
-                myImages.setAttribute('src', 'erico1.github.io/assignment/lesson-9/image/townone.jpg');
+                myImages.setAttribute('src', 'https://erico1.github.io/assignment/lesson-9/image/townone.jpg');
                 myImages.setAttribute('alt', 'An image of a beatiful city');
             }
             else if (towns[i].name == 'Greenville') {
-                myImages.setAttribute('src', 'erico1.github.io/assignment/lesson-9/image/towntwo.jpg');
+                myImages.setAttribute('src', 'https://erico1.github.io/assignment/lesson-9/image/towntwo.jpg');
                 myImages.setAttribute('alt', 'An image of a beatiful city');
             }
             else if (towns[i].name == 'Springfield') {
-                myImages.setAttribute('src', 'erico1.github.io/assignment/lesson-9/image/townthree.jpg');
+                myImages.setAttribute('src', 'https://erico1.github.io/assignment/lesson-9/image/townthree.jpg');
                 myImages.setAttribute('alt', 'Beautiful city');
             }
 
