@@ -16,7 +16,7 @@ section{
     width: 90%;
 }
 article{
-   margin: 5%;
+   
    text-align: center;
    width: 28%;
    margin: 0 auto;
@@ -28,5 +28,16 @@ h2{
 }
 p{
     font-size: 15px;
+}
+
+.site_info {
+    width: 86.45%;
+    background-color: grey;
+    font-size: .8rem;
+    margin: 0 auto;
+    padding: 0;
+} 
+article img{
+    width: 100%
 }
 } 

@@ -136,6 +136,45 @@ a:hover {
 
 
 
+.site_info {
+    width: 100%;
+    background-color: grey;
+    font-size: .8rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.forecastTitle {
+    display: none;
+}
+
+.contact {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact img {
+    width: 120%;
+}
+
+figure {
+    width: 100%;
+    margin: auto;
+}
+
+.socialMedia a {
+    text-decoration: none;
+}
+
+.socialMedia a:hover {
+    color: white;
+}
+
+.google {
+    left: 20%;
+}
+
 .summary #output {
     background-color: white;
 }
@@ -244,112 +283,6 @@ main{
     content: "";
     display: table;
     clear: both;
-}
-
-/* This will style the weather home page*/
-
-section{
-    width: 90%;
-    margin: 0 auto;
-    
-}
-
-article{
- background-color: rgb(255, 255, 255); 
-  text-align: center;
-}
-p{
-    font-size: 10px;
-    
-}
-
-h2{
-    color: red;
-    font-size: 16px;
-}
-/* This will style the weather home page*/
-
-section{
-    width: 90%;
-    margin: 0 auto;
-    
-}
-
-article{
- background-color: rgb(255, 255, 255); 
-  text-align: center;
-}
-p{
-    font-size: 10px;
-    
-}
-
-h2{
-    color: red;
-    font-size: 16px;
-}
-/* This will style the weather home page*/
-
-section{
-    width: 90%;
-    margin: 0 auto;
-    
-}
-
-article{
- background-color: rgb(255, 255, 255); 
-  text-align: center;
-}
-p{
-    font-size: 10px;
-    
-}
-
-h2{
-    color: red;
-    font-size: 16px;
-}
-/* This will style the weather home page*/
-
-section{
-    width: 90%;
-    margin: 0 auto;
-    
-}
-
-article{
- background-color: rgb(255, 255, 255); 
-  text-align: center;
-}
-p{
-    font-size: 10px;
-    
-}
-
-h2{
-    color: red;
-    font-size: 16px;
-}
-/* This will style the weather home page*/
-
-section{
-    width: 90%;
-    margin: 0 auto;
-    
-}
-
-article{
- background-color: rgb(255, 255, 255); 
-  text-align: center;
-}
-p{
-    font-size: 10px;
-    
-}
-
-h2{
-    color: red;
-    font-size: 16px;
 }
 /* This will style the weather home page*/
 
