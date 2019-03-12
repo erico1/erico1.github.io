@@ -354,7 +354,7 @@ h2{
 /* This will style the weather home page*/
 
 section{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     
 }
@@ -364,7 +364,7 @@ article{
   text-align: center;
 }
 p{
-    font-size: 10px;
+    font-size: 15px;
     
 }
 
@@ -372,25 +372,4 @@ h2{
     color: red;
     font-size: 16px;
 }
-/* This will style the weather home page*/
 
-section{
-    width: 80%;
-    margin: 0 auto;
-    
-}
-
-article{
- background-color: rgb(255, 255, 255); 
-  text-align: center;
-  
-}
-p{
-    font-size: 10px;
-    
-}
-
-h2{
-    color: red;
-    font-size: 16px;
-}
