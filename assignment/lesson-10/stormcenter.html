@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Weather site page">
+    <meta name="Author" content="Okor Eric">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Storm Center</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-8.css">
+    <link rel="stylesheet" href="css/large-8.css">
+    <link rel="stylesheet" href="css/medium-8.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="wrapnav"><img src="image/clouds.png" alt="image of a cloud">
+
+
+                <div class="name_motto">
+                    <h1>Ojuojo</h1>
+                    <div class="motto">Your sunshine matters.</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="clearfix">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#home">Home</a></li>
+            <li class="active"><a href="#home">Preston</a></li>
+            <li><a href="#home">Soda Springs</a></li>
+            <li><a href="#home">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Haven</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>
+        </ul>
+    </nav>
+<main>
+    <form action="thanks.html" method="get">
+        <fieldset>
+
+            <legend>Contact Information</legend>
+
+            <div><label>First Name *</label>
+                <input type="text" name="full name" pattern="[A-Za-z][min-length 5]" required></div>
+            <div>
+                <label>Last Name *</label>
+                <input type="text"  name="last name" pattern="[A-Za-z][min-length 5]" required>
+            </div>
+
+
+            <div> <label>Email *</label>
+                <input type="email" name="Email" placeholder="someone@bedof.com">
+            </div>
+
+            <div>
+
+                <label>Phone Number *</label>
+                <input type="tel" name="Tel" required>
+
+            </div>
+
+            <div>
+                <label>Zip Code *</label>
+                <input type="number"  name="zp" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Weather Condition</legend>
+            <div>
+                <label>Storm Date</label>
+                <input type="date"  name="date">
+            </div>
+
+
+
+            <div><label>Storm Stype</label>
+                <input list="disaster" name="disaster">
+                <datalist id="disaster">
+                    <option value="Flash-Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist></div>
+
+            <div>
+                <label>Storm Severity (1 to 10)</label>
+                <input type="range" name="points" value="1" min="1" max="10" step="1"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">1</span>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Location</legend>
+
+
+            <div><label>Storm Region</label>
+                <select name="region">
+                    <option value="Select Region"> Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="soda">Soda</option>
+                    <option value="springs">Springs</option>
+                    <option value="fish_haven">Fish Haven</option>
+                </select>
+            </div>
+            <div class="dif">
+                <label>Danger Level</label>
+                <input type="radio" name="option" value="yes">Yes<br>
+                <input type="radio" name="option" value="no">No<br>
+                <input type="radio" name="option" value="no">Maybe<br>
+                <label for="comment">Add Comment</label>
+                <input type="text" name="comment" id="comment" maxlength="100">
+            </div>
+
+        </fieldset>
+        <button type="submit" value="Submit">Submit</button><br>
+
+
+    </form>
+</main>
+    <script src="script/storm.js"></script>
+    <footer>
+        <p>&copy; OJUOJO | Attribution |Okoro Eric Oluwaseyi | <span id="currentdate"></span></p><br>
+        <script src="script/currentdate.js"></script>
+    </footer>
+    <script src="script/windchill.js"></script>
+    <script src="script/hamburger.js"></script>
+  
+
+
+</body>
+
+</html>
