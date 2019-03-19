@@ -1,4 +1,4 @@
- @media screen and (width:768px){.wrapper{
+ @media screen and (min-width:768px){.wrapper{
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr;
@@ -9,6 +9,40 @@
 
 .wrapper div figure img{
     width:100%;
+    
+}
+
+section{
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+}
+article{
+   
+   text-align: center;
+   width: 28%;
+   margin: 0 auto;
+   border: 1px solid black;
+   
+}
+h2{
+    color:red;
+  
+}
+p{
+    font-size: 15px;
+}
+
+
+.site_info {
+    width: 86.45%;
+    background-color: grey;
+    font-size: .8rem;
+    margin: 0 auto;
+    padding: 0;
+} 
+article img{
+    width: 90%;
     
 }
 } 

@@ -11,7 +11,7 @@
     width:100%;    
 }
 section{
-    display: flex;z
+    display: flex;
     flex-flow: row;
     width: 90%;
 }
