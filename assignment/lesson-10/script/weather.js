@@ -23,4 +23,20 @@ weatherRequest.onload = function ()
     document.getElementById('cT').setAttribute('alt', desc);
 }
 
+/* 5 Weather forecast script */
+
+var ForecastRequest = new XMLHttpRequest();
+ForecastRequest.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=9a749bbbab85984be5f1f1fbc7254110', true);
+ForecastRequest.send();
+ForecastRequest.onload = function () {
+    var preston = JSON.parse(ForecastRequest.responseText);
+    console.log(preston);
+
+    document.getElementById("MON").innerHTML = Math.round(preston.list[2].main.temp) + " °F";
+    document.getElementById("TUE").innerHTML = Math.round(preston.list[4].main.temp) + " °F";
+    document.getElementById("WED").innerHTML = Math.round(preston.list[8].main.temp) + " °F";
+    document.getElementById("THUR").innerHTML = Math.round(preston.list[16].main.temp) + " °F";
+    document.getElementById("FRI").innerHTML = Math.round(preston.list[32].main.temp) + " °F";
+}
+
 
