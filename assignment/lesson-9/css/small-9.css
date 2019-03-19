@@ -144,8 +144,10 @@ a:hover {
     padding: 0;
 }
 
-.forecastTitle {
-    display: none;
+@media screen and (max-width:600px){
+    .forecastTitle{
+display: none;
+    }
 }
 
 .contact {

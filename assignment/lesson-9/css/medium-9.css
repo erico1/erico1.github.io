@@ -11,7 +11,7 @@
     width:100%;    
 }
 section{
-    display: flex;
+    display: flex;z
     flex-flow: row;
     width: 90%;
 }
@@ -21,6 +21,7 @@ article{
    width: 28%;
    margin: 0 auto;
    border: 1px solid black;
+   
 }
 h2{
     color:red;
@@ -30,6 +31,7 @@ p{
     font-size: 15px;
 }
 
+
 .site_info {
     width: 86.45%;
     background-color: grey;
@@ -38,6 +40,7 @@ p{
     padding: 0;
 } 
 article img{
-    width: 100%
+    width: 90%;
+    
 }
 } 

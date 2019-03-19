@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Description" content="Weather site page">
+  <meta name="Author" content="Okor Eric">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>WEATHER API ACTIVITY</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small-10.css">
+  <link rel="stylesheet" href="css/large-10.css">
+  <link rel="stylesheet" href="css/medium-10.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="wrapnav"><img src="image/clouds.png" alt="image of a cloud">
+
+
+        <div class="name_motto">
+          <h1>Ojuojo</h1>
+          <div class="motto">Your sunshine matters.</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="clearfix">
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="#home">Home</a></li>
+      <li class="active"><a href="#home">Preston</a></li>
+      <li><a href="#home">Soda Springs</a></li>
+      <li><a href="#home">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Haven</a></li>
+      <li><a href="gallery-10.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <body>
+    <main class="apiTest">
+    <h1>OpenWeatherMap.org API Test</h1>
+    <p>The current temperature in Preston, Idaho is <span id="currentTemp"></span>&deg; F
+      <img id="cT" src="" alt="">
+    </p>
+  </main>
+    <section class="site_info">
+
+      <div class="contact"><br><br>
+        <h5>OJUOJO</h5>
+
+        &#x2116; 30 1st E <br>
+        Preston, ID 83263 <br>
+        &#x260f; 999.999.9999 <br>
+        &#x2709; ojuojo@infonet.com
+
+        <div class="socialMedia">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-whatsapp"></a>
+        </div>
+
+        <div><img src="image/Googlemaps.jpg" alt="google map"></div>
+      </div>
+    </section><br>
+
+
+    <footer>
+      <p>&copy; OJUOJO | Attribution |Okoro Eric Oluwaseyi | <span id="currentdate"></span></p><br>
+      <script src="script/currentdate.js"></script>
+    </footer>
+    <script src="script/windchill.js"></script>
+    <script src="script/hamburger.js"></script>
+    <script src="script/weatherapi.js"></script>
+
+  </body>
+
+
+</html>

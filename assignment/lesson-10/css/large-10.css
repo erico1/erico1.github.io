@@ -1,0 +1,90 @@
+/* medium and up views */
+
+@media (min-width: 45em) {
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation,
+    .container {
+        flex-direction: row;
+    }
+    /*****************nav styles ends***********/
+    @media screen and (min-width:1000px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            grid-auto-flow: dense;
+            width: 100%;
+        }
+        /* hover effect */
+        .norm:hover {
+            box-shadow: 0 0 80px rgb(209, 84, 84);
+        }
+    }
+    header {
+        background-color: #333333;
+    }
+    .container h2 {
+        font-size: 32px;
+    }
+    .forecastTitle {
+        background-color: #D3D3D3;
+        margin-left: 40px;
+        padding: 2px;
+        width: 40%;
+        color: #3b3a3a;
+        margin: auto;
+    }
+    .forecastTitle>h2 {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    table {
+        position: relative;
+        margin-left: 0px;
+        border-collapse: collapse;
+        width: 100%
+    }
+    th,
+    td {
+        text-align: center;
+        height: 20px;
+    }
+    .summary {
+        width: 40%;
+        font-size: 16px;
+    }
+
+    .tch{
+        font-size: 32px
+    }
+    .olojo_wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .article1 {
+        width: 80%;
+    }
+    figure {
+        width: 40%;
+        float: right;
+    }
+    .site_info {
+        width: 80%;
+    }
+    .contact {
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    .contact img {
+        margin-left: 100%;
+        margin-top: -30%;
+        width: 90%;
+    }
+}

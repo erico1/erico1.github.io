@@ -53,8 +53,12 @@ nav {
     background-color: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
+nav ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+ 
 nav ul {
     padding: 0;
     margin: 0;
@@ -69,9 +73,9 @@ nav a {
      padding: .8rem 2%; 
     color: #eee;
     text-decoration: none;
-    border-top: 1px solid rgba(0,0,0,0.3);
+   border-top: 1px solid rgba(0,0,0,0.3); 
   /*   text-align: center; */
-}
+} 
 nav ul.hide{display: none;
 }
 
