@@ -12,6 +12,7 @@ weatherRequest.onload = function ()
     document.getElementById('des').innerHTML = weatherData.weather[0].description;
     document.getElementById('humidity').innerHTML = weatherData.main.humidity;
     document.getElementById('speed').innerHTML = weatherData.wind.speed;
+    document.getElementById('windChill').innerHTML = weatherData.wind.deg;
     
 
     let icon = 'http://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png' ;
