@@ -1,8 +1,3 @@
-/* * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-} */
 
 /***************************************body**************************************/
 
@@ -71,9 +66,9 @@ nav {
     color: rgba(0, 0, 0, 1);
 }
 
-nav ul li.active a {
-    background-color: rgba(0, 0, 0, .2);
-    color: black;
+.navigation .active{
+    background-color:black;
+    
 }
 
 a:link {
