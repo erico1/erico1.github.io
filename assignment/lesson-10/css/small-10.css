@@ -28,20 +28,7 @@ header {
     justify-content: center;
 }
 
-/* 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
 
-.wrapnav {
-    text-align: center;
-}
-
-.name_motto {
-    display: inline-block;
-} */
 
 /*********************************** This will style the nav *********************/
 
@@ -166,7 +153,7 @@ a:hover {
 
 .summary,
 .tch {
-    font-size: 12px;
+    font-size: 70%;
     line-height: 5px;
 }
 
