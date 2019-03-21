@@ -348,6 +348,11 @@ main{
 .apiTest{
     text-align: center;
 }
+
+/*This will stylke the Preston event display*/
+main{
+    text-align: center;
+}
 .clearfix:after {
     content: "";
     display: table;

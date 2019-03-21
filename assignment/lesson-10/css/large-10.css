@@ -1,5 +1,3 @@
-/* medium and up views */
-
 @media (min-width: 45em) {
     .navigation li:first-child {
         display: none;
@@ -21,7 +19,7 @@
             grid-auto-flow: dense;
             width: 100%;
         }
-        /* hover effect */
+/* hover effect */
         .norm:hover {
             box-shadow: 0 0 80px rgb(209, 84, 84);
         }
