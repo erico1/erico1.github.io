@@ -57,20 +57,18 @@ function showtownsInfo(jsonObj) {
 
 
             var myArticle = document.createElement('article');
-            var myH2 = document.createElement('h2');
+     
             var myPara1 = document.createElement('p');
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
             var myPara4 = document.createElement('p');
             
-
-            myH2.textContent = towns[i].name + '  Town Event';           
+         
             myPara2.textContent = towns[i].events[0];
             myPara3.textContent = towns[i].events[1];
             myPara4.textContent = towns[i].events[2];
         
       
-            myArticle.appendChild(myH2);
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
