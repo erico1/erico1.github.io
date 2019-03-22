@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Weather site page">
+    <meta name="Author" content="Okor Eric">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather Site Project</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-10.css">
+    <link rel="stylesheet" href="css/large-10.css">
+    <link rel="stylesheet" href="css/medium-10.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="wrapnav"><img src="image/clouds.png" alt="image of a cloud">
+
+
+                <div class="name_motto">
+                    <h1>Ojuojo</h1>
+                    <div class="motto">Your sunshine matters.</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="clearfix">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="towndata.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="SodaSpring.html">Soda Springs</a></li>
+            <li><a class="active" href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Haven</a></li>
+            <li><a href="gallery-10.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="status">
+        <div class="container">
+            <h2>Fish Haven</h2>
+            <div class="wrap2">
+                <img src="image/franklin800.jpg" alt="franklin-image" sizes="50vw" srcset="image/franklin200.jpg 200w,
+                        image/franklin500.jpg 500w,
+                        image/franklin800.jpg 800w">
+                <section class="summary">
+                    <h3 class="tch">Weather summary</h3>
+                    <hr>
+                    <p class="tch">Currently: <span id="des"></span></p>
+                    <p class="tch">High: <span id="temMax"></span>&deg;F</p>
+                    <p class="tch">Wind Chil: <span id="windChill"></span></p>
+                    <p class="tch">Humidity: <span id="humidity"></span>%</p>
+                    <p class="tch">Wind Speed: <span id="speed"></span>mph</p>
+                </section>
+            </div>
+        </div>
+
+    </section>
+    <section class="forecastTitle">
+        <h2>5 Day Forecast</h2>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id='MON'>n/v</td>
+                        <td id='TUE'>n/v</td>
+                        <td id='WED'>n/v</td>
+                        <td id='THUR'>n/v</td>
+                        <td id='FRI'>n/v</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <article>
+        <div class="article1">
+
+            <div class="olojo_wrap">
+                <figure><img src="image/olojos.jpg">
+                    <figcaption>Odun Olojo Festival</figcaption>
+                </figure>
+                <h5 class="title">Ooni of Ife begins Olojo festival with 7 day seclusion</h5>
+                <p class="author_name">by Gbenga Olarinoye</p>
+                <p class="body">Ooni of Ife begins Olojo festival with 7 day seclusion ON SEPTEMBER 27, 2018
+                    8:39PM.
+                    The Ooni of Ife, Oba Adeyeye Enitan Ogunwusi, Ojaja II last Sunday moved
+                    into
+                    Iledi house at Iremo quaters in Ile-Ife where he remains incommunicado in an annual 7-day
+                    seclusion
+                    kick-starting the 2018 Olojo Festival. Ooni of Ife, Oba Adeyeye Enitan Ogunwusi sits for his
+                    coronation
+                    at Ile-Ife in southwest Nigeria, on December 7, 2015. 41-year-old multi-millionaire Adeyeye
+                    Enitan
+                    Ogunwusi, has been officially installed as the new Ooni of Ife.<a
+                        href="https://www.vanguardngr.com/2018/09/ooni-of-ife-begins-olojo-festival-with-7-day-seclusion/">...continue
+                        to full article</a>
+
+            </div>
+        </div>
+    </article>
+    <section class="site_info">
+
+        <div class="contact"><br><br>
+            <h5>OJUOJO</h5>
+
+            &#x2116; 30 1st E <br>
+            Preston, ID 83263 <br>
+            &#x260f; 999.999.9999 <br>
+            &#x2709; ojuojo@infonet.com
+
+            <div class="socialMedia">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-whatsapp"></a>
+            </div>
+
+            <div><img src="image/Googlemaps.jpg" alt="google map"></div>
+        </div>
+    </section><br>
+
+    <footer>
+        <p>&copy; OJUOJO | Attribution |Okoro Eric Oluwaseyi | <span id="currentdate"></span></p><br>
+    </footer>
+    <script src="script/windchill.js"></script>
+    <script src="script/hamburger.js"></script>
+    <script src="script/currentdate.js"></script>
+    <script src="script/weather.js"></script>
+</body>
+
+</html>
