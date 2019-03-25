@@ -71,8 +71,8 @@ nav {
     
 }
 
-a:link {
-    color: black;
+ a:link {
+    color: blue;
 }
 
 a:visited {
@@ -86,7 +86,7 @@ a:focus {
 a:hover {
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
-}
+} 
 
 /***********************This will style the gallery content***********************/
 
