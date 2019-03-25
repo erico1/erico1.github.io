@@ -24,10 +24,7 @@
             box-shadow: 0 0 80px rgb(209, 84, 84);
         }
     }
-    header {
-        background-color: #333333;
-    }
-    .container h2 {
+        .container h2 {
         font-size: 32px;
     }
     .forecastTitle {
