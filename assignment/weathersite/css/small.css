@@ -18,6 +18,9 @@ header {
     flex-direction: row;
     justify-content: center;
 }
+.wrapnav img{
+    width: 10%;
+}
 
 nav {
     margin: auto;
