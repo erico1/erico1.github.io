@@ -87,6 +87,9 @@ a:visited {
     margin: auto;
     
 }
+.visitTemple div a{
+    text-decoration: none;
+}
 .vt{
     border: 2px solid black;
     margin-top: 10px;
