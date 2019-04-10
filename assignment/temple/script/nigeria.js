@@ -14,3 +14,17 @@ weatherRequest.onload = function () {
     document.getElementById('Ntemp').innerHTML = Math.round(weatherStatus.main.temp);
     document.getElementById('Nhumidity').innerHTML = weatherStatus.main.humidity;
 }
+
+
+var myobj =  {
+        
+    "closures": [
+        " Saturday, 17 August 2019",  "Monday, 26 August 2019 - Monday, 4 November 2019", "Tuesday, 24 December 2019 - Thursday, 26 December 2019" ]       
+}
+var output= document.getElementById('output');
+output.innerHTML = myobj.closures[0];
+var output= document.getElementById('output2');
+output.innerHTML = myobj.closures[1];
+var output= document.getElementById('output3');
+output.innerHTML = myobj.closures[2] ;
+ 

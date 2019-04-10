@@ -14,3 +14,37 @@ weatherRequest.onload = function () {
     document.getElementById('Stemp').innerHTML = Math.round(weatherStatus.main.temp);
     document.getElementById('Shumidity').innerHTML = weatherStatus.main.humidity;
 }
+
+
+
+var myobj =  {
+        
+    "closures": [
+        "2019 Saturday, 13 April", "2019 Friday, 19 April 2019 (Limited Hours)",
+        "Wednesday, 1 May 2019 (Limited Hours)",
+        "Monday, 5 August 2019 - Monday, 19 August 2019",
+        "Saturday, 12 October 2019",
+        "Tuesday, 24 December 2019 (Limited Hours)",
+        "Wednesday, 25 December 2019 (Limited Hours)",
+        "Thursday, 26 December 2019 (Limited Hours)",
+        "Tuesday, 31 December 2019 (Limited Hours)" ]       
+}
+var output= document.getElementById('output');
+output.innerHTML = myobj.closures[0];
+var output= document.getElementById('output2');
+output.innerHTML = myobj.closures[1];
+var output= document.getElementById('output3');
+output.innerHTML = myobj.closures[2] ;
+var output= document.getElementById('output4');
+output.innerHTML = myobj.closures[3] ;
+var output= document.getElementById('output5');
+output.innerHTML = myobj.closures[4] ;
+var output= document.getElementById('output6');
+output.innerHTML = myobj.closures[5] ;
+var output= document.getElementById('output7');
+output.innerHTML = myobj.closures[6] ;
+var output= document.getElementById('output8');
+output.innerHTML = myobj.closures[7] ;
+var output= document.getElementById('output9');
+output.innerHTML = myobj.closures[8] ;
+ 

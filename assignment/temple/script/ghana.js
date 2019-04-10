@@ -1,5 +1,5 @@
 /* Weather summary Scripts For Ghana */
-var weatherRequest = new XMLHttpRequest();
+ var weatherRequest = new XMLHttpRequest();
 weatherRequest.open('GET', 'https://api.openweathermap.org/data/2.5/weather?id=2300660&APPID=9a749bbbab85984be5f1f1fbc7254110', true);
 weatherRequest.send();
 
@@ -13,4 +13,16 @@ weatherRequest.onload = function () {
     document.getElementById('Glat').innerHTML = weatherStatus.coord.lat;
     document.getElementById('Gtemp').innerHTML = Math.round(weatherStatus.main.temp);
     document.getElementById('Ghumidity').innerHTML = weatherStatus.main.humidity;
-}
+} 
+
+
+
+
+  var myobj =  {
+        
+            "closures": [
+                "Monday, 2 September 2019 - Thursday, 31 October 2019"
+            ]       
+    }
+var output= document.getElementById('output');
+output.innerHTML = myobj.closures[0];   

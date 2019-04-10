@@ -15,3 +15,12 @@ weatherRequest.onload = function () {
     document.getElementById('Ehumidity').innerHTML = weatherStatus.main.humidity;
 }
 
+
+var myobj =  {
+        
+    "closures": [
+        "Tuesday, 6 August 2019 - Monday, 16 September 2019"
+    ]       
+}
+var output= document.getElementById('output');
+output.innerHTML = myobj.closures[0];   
