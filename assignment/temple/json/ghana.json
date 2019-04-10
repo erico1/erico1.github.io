@@ -1,7 +1,14 @@
-{
-    "Closures": "",
-    "Maintenance Dates":["Monday, January 16 – Monday, January 30",
-
-"Monday, June 12 – Monday, June 26"],
-"Other Dates": ["Saturday, August 19","Tuesday, December 26"]
-}
+[
+    {
+        "Temple Closures": {
+            "Maintenance Dates": [
+                "Monday, January 16 – Monday, January 30",
+                "Monday, June 12 – Monday, June 26"
+            ],
+            "Other Dates": [
+                "Saturday, August 19",
+                "Tuesday, December 26"
+            ]
+        }
+    }
+]
