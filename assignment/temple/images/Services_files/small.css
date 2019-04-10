@@ -1,0 +1,311 @@
+body {
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    background: #222a35;
+    color: #f2f2f2;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orange 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 3px 20px 0 20px;
+}
+
+header #templeImage {
+    float: left;
+}
+
+header #templeImage h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: orange;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+.navlabel {
+    margin: -68px 0px 0px 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 50px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+/* Showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url(../images/Temple.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+    color: white;
+}
+
+/* Homepage Reservation Section button Style */
+
+#reserve {
+    color: #fff;
+    background: #222a35;
+    border-top: orange 3px solid;
+}
+
+#reserve h1 {
+    float: left;
+    text-align: center;
+}
+
+#reserve form {
+    float: right;
+    margin-top: 25px;
+}
+
+.button_1 {
+    height: 40px;
+    background: #cccccc;
+    border: 0;
+    background-color: orange;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+.button_1:hover {
+    background-color: orangered;
+    font-weight: 600;
+}
+
+.button_1 a {
+    color: white;
+    text-decoration: none;
+}
+
+/* End Homepage Reservation Button */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 17px;
+}
+
+#boxes p {
+    
+    text-align: justify
+}
+
+.box h3 {
+    color: orange;
+}
+
+/* Reservation Page Setup */
+
+main {
+    width: 80%;
+    padding: 0 11%;
+    height: auto;
+}
+
+main h1 {
+    text-align: center;
+    color: #555;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: orange;
+    font-size: 20px;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.first input, form label.first select {
+    -webkit-appearance: none;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: solid 1px wheat;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 92%;
+    max-width: 20rem;
+}
+
+form label.second {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+.third {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form div {
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling the submit button */
+
+.submit[type=button], .submit[type=submit], .submit[type=reset] {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 30px;
+    margin: 0 0 15px 15px;
+}
+
+.submit:hover {
+    background-color: #4CAF50;
+}
+
+@media only screen and (min-width: 200px) {
+    #textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    }
+}
+
+/* End Reservation Page Setup */
+
+/* Start Contact us Page */
+
+section#contact_1 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+section#contact_1 input, section#contact_1 textarea {
+    width: 98%;
+    padding: 5px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+/* End Contact us Page */
+
+/* Start Services Page  */
+
+article#main-col {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#services h3 {
+    border-bottom: 1px solid orange;
+}
+
+#services {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#services li {
+    width: 85%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+/* End Services Page */
+
+footer {
+    padding: 1px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #222a35;
+    text-align: center;
+}
+
+footer p {
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+footer h3 {
+    color: orange;
+}

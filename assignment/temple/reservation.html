@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Temple Inn and Suites</title>
+    <meta name="description" content="Temple Inn and Suites">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Okoro Eric Seyi">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" href="images/Favicon.PNG">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="headContainer">
+            <div id="logo">
+                <h1><i class="fa fa-hotel"></i> Temple <span class="highlight">Inn & Suites</span></h1>
+                <q>We devote to providing a safe haven.</q>
+            </div>
+
+            <nav class="clearfix">
+                <ul class="navigation">
+                    <li><a href="#home" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a class="active" href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="reservation">
+        <h1>Make Your Reservation</h1>
+        <form method="get" action="thanks.html">
+            <div class="firstinfo">
+                <div>
+                    <fieldset class="curved">
+                        <legend>Registrant's Information</legend>
+                        <label class="first">First Name * <input type="text" name="fName"
+                                pattern="[A-Za-z]{minlength 5}" required></label>
+                        <label class="first">Last Name * <input type="text" name="lName" pattern="[A-Za-z]{minlength 5}"
+                                required></label>
+
+                        <label class="first">Email <input type="email" name="email"
+                                placeholder="someone@byui.edu"></label>
+                        <label class="first">Phone Number * <input type="tel" name="phoneNumber" required></label>
+
+                        <label class="first">Country * <input type="text" placeholder="Enter your home state or country"
+                                required></label>
+                        <label class="first">How many days would you stay?<input type="number"
+                                placeholder="Example: 2 days, 1 week."></label>
+
+
+                        <p>Coming with family or friends?</p>
+                        <label class="second"><input type="radio" name="companion" value="yes">
+                            Yes
+                        </label>
+                        <label class="second"><input type="radio" name="companion" value="no">
+                            No
+                        </label>
+                    </fieldset>
+                </div>
+
+
+                <div class="secondinfo">
+                    <fieldset class="curved">
+                        <legend>Continent</legend>
+                        <label class="third">Select One Option:</label>
+                        <select name="Region">
+                            <option value="">click me</option>
+                            <option value="africa">Africa</option>
+                            <option value="antarctica">Antarctica</option>
+                            <option value="asia">Asia</option>
+                            <option value="australia/oceania">Australia/Oceania</option>
+                            <option value="europe">Europe</option>
+                            <option value="north america">North America</option>
+                            <option value="south america">South America</option>
+                        </select><br><br>
+
+
+
+                        <p>Special Accommodations / Comment</p>
+                        <input id="textarea" type="text">
+                    </fieldset>
+                </div>
+
+                <div class="Submit">
+                    <input type="submit" value="Submit" class="submit">
+                </div>
+            </div>
+
+
+        </form>
+
+
+    </main>
+
+
+    <footer>
+        <h3>The Temple Inn & Suites</h3>
+        <p>Bethesda, 4800 Montgomery Ln #300, MD 20814 - USA | 801-422-4636 | Copyright &copy; 2018 ALL RIGHTS RESERVED
+        </p>
+    </footer>
+
+    <script src="script/temple.js"></script>
+    <script src="script/hamburger.js"></script>
+</body>
+
+</html>

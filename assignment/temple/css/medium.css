@@ -1,0 +1,171 @@
+@media only screen and (min-width: 700px) {
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation,
+    .container {
+        flex-direction: row;
+    }
+
+    /* .tempIMG {
+        display: flex;
+        flex-flow: row;
+        width: 90%;
+        margin: auto;
+        background-color: floralwhite
+    } */
+
+    .tempIMG p img {
+        width: 100%;
+
+        position: relative;
+    }
+
+    .CTA {
+
+        width: 100%;
+        color: black;
+    font-size: 20px;
+
+    }
+
+.visitTemple{
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    
+}
+.vt{
+    border: 2px solid black;
+    margin: 10px;
+  width: 25%;
+}
+
+
+
+    .CTA h4 {
+        line-height: 60px;
+        margin: 10px;
+
+    }
+
+    .CTA p {
+        margin-top: -0px;
+    }
+
+
+    .activities {
+        width: 90%;
+        margin: auto;
+    }
+
+    .activities div img {
+        width: 100%;
+
+    }
+
+    .activities div {
+
+        margin: 10px;
+
+    }
+
+    .activities {
+        display: flex;
+        flex-flow: row;
+        width: 90%;
+        margin: auto;
+    }
+
+    .activities div {
+        width: 35%;
+        margin: 2px;
+        /*  border: .8px solid black ; */
+    }
+
+    .activities div img {
+        width: 100%;
+
+    }
+
+    
+    .CTA {
+        margin: 19.5px;
+
+    }
+
+    .CTA h1 {
+        text-align: center;
+    }
+
+    .CTA p {
+        margin: 15px;
+    }
+
+
+    .activities div p {
+        margin: 0px 12px 0px 12px;
+        text-align: center;
+    }
+
+    .atlanta {
+        width: 90%;
+        line-height: 15px;
+        margin: auto;
+
+    }
+
+    .atlanta img {
+        width: 60%;
+
+    }
+
+   .atlanta h3{
+     
+        font-size: 250%;
+    }
+
+     .atlanta div {
+        display: flex;
+        flex-flow: row;
+        margin: 15px;
+        line-height: 30px;
+    } 
+
+    .atlanta div p {
+
+        font-size: 90%;
+    }
+    .templebox{
+        font-size: 20px;
+    }
+    .templebox h1,h2{
+        text-align: center;
+    }
+
+    .templecontact {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .templecontact div {
+        width: 40%;
+        margin: 30px;
+    }
+
+    .firstinfo{
+        
+        width: 40%;
+       
+    }
+
+ 
+} 

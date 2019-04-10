@@ -1,0 +1,298 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:floralwhite;
+  
+}
+
+
+header {
+    padding-top: 20px;
+    background-color: #363942;
+    color: #ffff;
+}
+
+#logo{
+    text-align: center;
+}
+
+.highlight{
+    color: gold;
+}
+nav {
+    margin: auto;
+    
+    background-color:#677488;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.responsive li {
+    display: block;
+}
+
+ .navigation li a:hover {
+    background-color: rgba(200, 200, 200, 1);
+    color: rgba(0, 0, 0, 1);
+} 
+
+  .navigation .active {
+    background-color:floralwhite; 
+    color: black;
+} 
+
+ a:link {
+    color: blue;
+} 
+
+a:visited {
+    color: rgb(35, 41, 119);
+}
+ 
+ a:focus {
+    color: blue;
+} 
+
+.visitTemple{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    
+}
+.vt{
+    border: 2px solid black;
+    margin-top: 10px;
+  
+}
+.visitTemple div img{
+    width: 100%;
+ 
+}
+ .navigation a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+} 
+
+ .tempIMG {
+
+    width: 90%;
+    margin: auto;
+  
+} 
+.tempIMG p img {
+
+    width: 100%;    
+} 
+.activities{
+    width: 90%;
+    margin: auto;
+}
+.activities div img{
+    width: 100%;    
+}
+ .activities div{
+    margin: 15px;  
+} 
+ .CTA{
+    margin: 10px;  
+} 
+.CTA h4{
+    text-align: center;
+    margin-top: -10px;
+   margin-bottom: -18px; 
+    font-size: 150%;
+    }
+.CTA p{
+    font-size: 90%;    
+}
+    
+.CTA i{
+    font-size: 20px;
+    color:white;
+}
+
+.form{
+    float: right;
+    margin-top: -10px;  
+}
+
+.form button{
+    background-color: #4a5f7b;    
+}
+
+.form button:hover{
+    box-shadow: 0px 10px 10px red;
+}
+ 
+.CTA form button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  box-shadow: 0px 10px 10px#4a5f7b;  
+}
+
+.atlanta{
+    width:90%;
+    margin: auto;
+    line-height: 15px;
+}
+
+.atlanta img{
+    width: 100%;
+}
+
+.atlanta h3{
+    text-align: center;
+    font-size: 150%;
+}
+
+.atlanta div{
+    line-height: 26px;
+} 
+.temple{
+    width: 90%;
+    margin: auto;
+}
+.temple h2, h1{
+    text-align: center;
+}
+.templebox{
+    width: 80%;
+    margin: auto;
+}
+.templebox h1,h2{
+    text-align: center;
+}
+.templeimg{
+    width: 90%;  
+    margin: auto;
+}
+.templeimg img{
+    width: 100%;
+}
+.nextTemple{
+    text-align: right;
+    list-style-type: none;
+   
+   
+}
+.nextTemple li a{
+    
+   text-decoration: none;
+     
+    background-color:black;
+    color: white;  
+    
+}
+.nextTemple li a:hover{
+    
+    box-shadow: 0px  0px 0px 2px black;
+}
+.weatherSum h2{
+text-align: left;
+
+}
+.weatherSum ul{
+    list-style-type: none;
+    text-align: left;   
+    padding: 0px;
+}
+.firstinfo{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
+.firstinfo div label input{
+    width: 100%;
+    
+}
+
+.firstinfo div fieldset .second input{
+    width: 20%;
+}
+ legend{
+    text-align: center;
+  } 
+  .curved{
+      border-radius: 20px;
+  }
+
+#textarea{
+    width: 100%;
+    height: 50px;
+    
+}
+ .submit{
+   float: right;
+   margin: 20px;
+  
+ }
+ 
+ /* Start Contact us Page */
+
+section#contact_1 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+section#contact_1 input, section#contact_1 textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+   
+}
+
+/* End Contact us Page */
+footer{
+    background-color: #0D001D;
+color: white;
+text-align: center;
+padding-bottom: 20px;
+
+}
+footer p{
+   font: 10px;
+  
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} 

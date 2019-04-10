@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/temple/services.html -->
+<html lang="en" class="gr__127_0_0_1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Services</title>
+    <meta name="description" content="A hotel suite site for LDS members">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nkenta Uchechkwu Ferdinand">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" href="http://127.0.0.1:5500/temple/images/Favicon.PNG">
+    <link rel="stylesheet" href="./Services_files/all.css">
+    <link rel="stylesheet" href="./Services_files/normalize.css">
+    <link rel="stylesheet" href="./Services_files/small.css">
+    <link rel="stylesheet" href="./Services_files/medium.css">
+    <link rel="stylesheet" href="./Services_files/large.css">
+</head>
+
+<body data-gr-c-s-loaded="true">
+    <header>
+        <div class="container">
+            <div id="templeImage">
+                <h1><i class="fa fa-hotel"></i><span class="highlight"> Temple</span> Inn &amp; Suites</h1>
+            </div>
+            <nav class="nav">
+                <label for="toggle" class="navlabel">☰</label>
+                <input type="checkbox" id="toggle">
+                <ul class="menu" id="mainmenu">
+                    <li class=""><a href="http://127.0.0.1:5500/temple/index.html">Home</a></li>
+                    <li class=""><a href="http://127.0.0.1:5500/temple/temple.html">Temple</a></li>
+                    <li class=""><a href="http://127.0.0.1:5500/temple/reservation.html">Reservation</a></li>
+                    <li class="current"><a href="http://127.0.0.1:5500/temple/services.html">Services</a></li>
+                    <li class=""><a href="http://127.0.0.1:5500/temple/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Our Services</h1>
+                <p> We believe that families are forever and we strongly support the upliftment, and the spiritual
+                    blessing that one can get from attending the temple, that's why on <strong>Temple Inn &amp; Suites</strong>,
+                    we try as much as we
+                    can to provide you with the best customer service that will enhance both your spiritual and
+                    physical well-being. Below are some of the services we offer;</p>
+
+                <div id="services">
+                    <h3>Services and Features</h3>
+                    <ul>
+                        <li> Free access to changing rooms and bathroom facilities for temple patrons who need to
+                            change to and from church clothes
+                        </li>
+                        <li>Day-care room and low cost, short-term babysitting services for the children of patrons</li>
+                        <li>Long term stay accommodations in kitchenette suites for full-time temple missionaries</li>
+                        <li>Temple history themed reception and sitting area</li>
+                        <li>Wedding reception hall that can be easily customized with a simple catering menu and
+                            kitchen access for food preparation and serving</li>
+                        <li>Business center that supports family search and ordinance work
+                        </li>
+                    </ul>
+
+                    <h3>Amenities</h3>
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Exercise/workout room</li>
+                        <li>Indoor pool</li>
+                        <li>WiFi high-speed internet access and smart tvs</li>
+                        <li>Parking</li>
+                        <li>Family history consultation and family ordinance card services</li>
+                    </ul>
+                </div>
+            </article>
+    </div></section>
+
+
+    <footer>
+        <h3>The Temple Inn &amp; Suites</h3>
+        <p>Bethesda, 4800 Montgomery Ln #300, MD 20814 - USA | 801-422-4636 | Copyright © 2018 ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <script src="./Services_files/temple.js.download"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
