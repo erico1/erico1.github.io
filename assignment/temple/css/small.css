@@ -294,6 +294,11 @@ footer p{
   
 }
 
+.container{
+    width: 90%;
+    margin: auto;
+}
+
 .clearfix:after {
     content: "";
     display: table;
