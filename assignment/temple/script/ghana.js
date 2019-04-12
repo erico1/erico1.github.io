@@ -16,7 +16,7 @@ weatherRequest.onload = function () {
 } 
 
 
-
+/*json obj */
 
   var myobj =  {
         

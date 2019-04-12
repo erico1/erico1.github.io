@@ -21,6 +21,10 @@ var myobj =  {
     "closures": [
         " Saturday, 17 August 2019",  "Monday, 26 August 2019 - Monday, 4 November 2019", "Tuesday, 24 December 2019 - Thursday, 26 December 2019" ]       
 }
+
+
+
+/*json obj */
 var output= document.getElementById('output');
 output.innerHTML = myobj.closures[0];
 var output= document.getElementById('output2');
